@@ -1,0 +1,10 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\bin\Debug\TimerTest.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\bin\Debug\TimerTest.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\bin\Debug\TimerTest.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\TimerTest\TimerTest\obj\Debug\TimerTest.pdb
