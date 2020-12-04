@@ -12,27 +12,49 @@ namespace CarApplication
 {
     public partial class Form1 : Form
     {
-        Car myCar; 
+        Car myCar;
+        Car myCar2;
         public Form1()
         {
             myCar = new Car();
             myCar.SetBrand("BMW");
             myCar.SetMaxSpeed(260);
+
+            myCar2 = new Car();
+            myCar2.SetBrand("Volvo");
+            myCar2.SetMaxSpeed(240);
             InitializeComponent();
 
-            lblCarInfo.Text = myCar.GetInfo();
+            lblBMW.Text = myCar.GetInfo();
+            lblVolvo.Text = myCar2.GetInfo();
         }
 
         private void btnAccelerate_Click(object sender, EventArgs e)
         {
-            myCar.SpeedUp();
-            lblCarInfo.Text = myCar.GetInfo();
+            if (tabControl1.SelectedIndex == 0)
+            {
+                myCar.SpeedUp();
+                lblBMW.Text = myCar.GetInfo();
+            }
+            else if (tabControl1.SelectedIndex == 1)
+            {
+                myCar2.SpeedUp();
+                lblVolvo.Text = myCar2.GetInfo();
+            }
         }
 
         private void btnBrake_Click(object sender, EventArgs e)
         {
-            myCar.SlowDown();
-            lblCarInfo.Text = myCar.GetInfo();
+            if (tabControl1.SelectedIndex == 0)
+            {
+                myCar.SlowDown();
+                lblBMW.Text = myCar.GetInfo();
+            }
+            else if (tabControl1.SelectedIndex == 1)
+            {
+                myCar2.SlowDown();
+                lblVolvo.Text = myCar2.GetInfo();
+            }
         }
     }
 }
