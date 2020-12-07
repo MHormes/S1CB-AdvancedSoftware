@@ -12,24 +12,16 @@ namespace Week14_Practice
         private int topSpeed;
         private int speed;
 
-        public void SetModel(string model)
+        public Car(string model, int topspeed)
         {
             this.model = model;
+            this.topSpeed = topspeed;
+            this.speed = 0;
         }
 
         public string GetModel()
         {
             return this.model;
-        }
-
-        public void SetTopSpeed(int topSpeed)
-        {
-            this.topSpeed = topSpeed;
-        }
-
-        public void SetSpeed(int speed)
-        {
-            this.speed = speed;
         }
 
         public int GetSpeed()

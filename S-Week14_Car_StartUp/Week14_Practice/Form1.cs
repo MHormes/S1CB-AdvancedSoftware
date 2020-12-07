@@ -19,21 +19,12 @@ namespace Week14_Practice
         {
             InitializeComponent();
             // Select the fist car
-            this.car1 = new Car();
-            this.car1.SetModel("Porsche 911 Turbo");
-            this.car1.SetTopSpeed(320);
-            this.car1.SetSpeed(0);
+            this.car1 = new Car("Porsche 911 Turbo", 320);
+            
+            this.car2 = new Car("Ferrari  812 GTS", 340);
 
-            this.car2 = new Car();
-            this.car2.SetModel("Ferrari  812 GTS");
-            this.car2.SetTopSpeed(340);
-            this.car2.SetSpeed(0);
-
-            this.car3 = new Car();
-            this.car3.SetModel("Volkswagen Beetle");
-            this.car3.SetTopSpeed(130);
-            this.car3.SetSpeed(0);
-
+            this.car3 = new Car("Volkswagen Beetle", 130);
+            
             cbbCars.Items.Add(this.car1.GetModel());
             cbbCars.Items.Add(this.car2.GetModel());
             cbbCars.Items.Add(this.car3.GetModel());
