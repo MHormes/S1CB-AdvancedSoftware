@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week14_Practice
 {
-    class Car
+    public class Car
     {
         private string model;
         private int topSpeed;
