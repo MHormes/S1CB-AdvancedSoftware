@@ -1,0 +1,10 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\bin\Debug\UMLPractice.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\bin\Debug\UMLPractice.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\bin\Debug\UMLPractice.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\UMLPractice\UMLPractice\obj\Debug\UMLPractice.Form1.resources
