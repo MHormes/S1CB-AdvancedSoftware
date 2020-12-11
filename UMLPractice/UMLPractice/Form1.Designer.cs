@@ -93,7 +93,7 @@ namespace UMLPractice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(231, 176);
+            this.ClientSize = new System.Drawing.Size(543, 284);
             this.Controls.Add(this.tbxStudentNumber);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnGroupInfo);

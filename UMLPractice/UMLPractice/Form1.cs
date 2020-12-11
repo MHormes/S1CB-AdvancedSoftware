@@ -27,7 +27,7 @@ namespace UMLPractice
                 MessageBox.Show("Please give a name");
                 return;
             }
-            pg.AddMember(tbxMemberName.Text, tbxStudentNumber.Text);
+            pg.AddMember(tbxMemberName.Text);
         }
 
         private void btnGroupInfo_Click(object sender, EventArgs e)
