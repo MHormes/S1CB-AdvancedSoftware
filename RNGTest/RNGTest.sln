@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNGTest", "RNGTest\RNGTest.csproj", "{AFEC9CF1-140C-424F-82A4-267B8BB1D18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEC9CF1-140C-424F-82A4-267B8BB1D18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEC9CF1-140C-424F-82A4-267B8BB1D18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEC9CF1-140C-424F-82A4-267B8BB1D18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEC9CF1-140C-424F-82A4-267B8BB1D18A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFBF8667-1AB7-43B3-AD33-48511A09D41A}
+	EndGlobalSection
+EndGlobal
