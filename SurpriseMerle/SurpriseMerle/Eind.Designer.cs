@@ -74,10 +74,10 @@ namespace SurpriseMerle
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(327, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(720, 155);
+            this.label2.Size = new System.Drawing.Size(728, 155);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Het Einde!\r\n\r\nHet is je gelukt. Jij hebt je cadeau ondertussen dik verdient\r\n\r\nVe" +
-    "el speel plezier!";
+            this.label2.Text = "Het Einde!\r\n\r\nHet is je gelukt. Jij hebt je cadeau ondertussen dik verdient!\r\n\r\nV" +
+    "eel speel plezier!";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Eind

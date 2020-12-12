@@ -12,7 +12,8 @@ namespace SurpriseMerle
 {
     public partial class Spel5 : Form
     {
-        string pass = "";
+        string pass = "veel plezier";
+        string pass2 = "veelplezier";
         public Spel5()
         {
             InitializeComponent();
@@ -20,7 +21,7 @@ namespace SurpriseMerle
 
         private void btnCheckCode_Click(object sender, EventArgs e)
         {
-            if (tbxCode.Text == pass)
+            if (tbxCode.Text.ToLower() == pass || tbxCode.Text.ToLower() == pass2)
             {
                 Eind newForm = new Eind();
                 this.Hide();

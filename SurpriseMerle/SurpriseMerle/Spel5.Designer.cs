@@ -48,7 +48,7 @@ namespace SurpriseMerle
             // tbxCode
             // 
             this.tbxCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxCode.Location = new System.Drawing.Point(305, 326);
+            this.tbxCode.Location = new System.Drawing.Point(305, 321);
             this.tbxCode.Multiline = true;
             this.tbxCode.Name = "tbxCode";
             this.tbxCode.Size = new System.Drawing.Size(733, 47);
@@ -59,7 +59,7 @@ namespace SurpriseMerle
             this.btnCheckCode.BackColor = System.Drawing.Color.Red;
             this.btnCheckCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckCode.ForeColor = System.Drawing.Color.White;
-            this.btnCheckCode.Location = new System.Drawing.Point(490, 622);
+            this.btnCheckCode.Location = new System.Drawing.Point(518, 587);
             this.btnCheckCode.Name = "btnCheckCode";
             this.btnCheckCode.Size = new System.Drawing.Size(368, 99);
             this.btnCheckCode.TabIndex = 12;
@@ -72,12 +72,12 @@ namespace SurpriseMerle
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(309, 66);
+            this.label2.Location = new System.Drawing.Point(230, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(719, 155);
+            this.label2.Size = new System.Drawing.Size(848, 155);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Vraag 5:\r\n\r\nKan jij de code kraken...dan mag jij je cadeau open maken!\r\n\r\nVul de " +
-    "code in en klik op de knop";
+            this.label2.Text = "Vraag 5:\r\n\r\nKan jij de verborgen code kraken...dan mag jij je cadeau open maken!\r" +
+    "\n\r\nVul de code in en klik op de knop";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Spel5
