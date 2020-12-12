@@ -11,3 +11,6 @@ C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lectu
 C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\SurpriseMerle\SurpriseMerle\obj\Debug\SurpriseMerle.pdb
 C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\SurpriseMerle\SurpriseMerle\obj\Debug\SurpriseMerle.csprojAssemblyReference.cache
 C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\SurpriseMerle\SurpriseMerle\obj\Debug\SurpriseMerle.Spel3.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\SurpriseMerle\SurpriseMerle\obj\Debug\SurpriseMerle.Eind.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\SurpriseMerle\SurpriseMerle\obj\Debug\SurpriseMerle.Spel4.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\SurpriseMerle\SurpriseMerle\obj\Debug\SurpriseMerle.Spel5.resources

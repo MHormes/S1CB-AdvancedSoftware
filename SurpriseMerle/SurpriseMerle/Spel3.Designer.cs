@@ -50,8 +50,8 @@ namespace SurpriseMerle
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(803, 186);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Spel 3:\r\n\r\nHoeveel huizen moet je bouwen voordat je een hotel kan plaatsen\r\nin he" +
-    "t befaamde monopoly?\r\n\r\nDruk op het juiste aantal";
+            this.label2.Text = "Vraag 3:\r\n\r\nHoeveel huizen moet je bouwen voordat je een hotel kan plaatsen\r\nin h" +
+    "et befaamde monopoly?\r\n\r\nKlik op het juiste aantal";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox1
