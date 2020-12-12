@@ -1,7 +1,7 @@
 ﻿
-namespace Merle
+namespace SurpriseMerle
 {
-    partial class Spel3
+    partial class Spel2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,37 +29,37 @@ namespace Merle
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label2
+            // button2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(525, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(298, 155);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Vraag 4:\r\n\r\n?\r\n\r\nKlik op het juiste plaatje";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(587, 327);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(188, 132);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "39";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Spel4
+            // Spel2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1362, 786);
-            this.Controls.Add(this.label2);
-            this.Name = "Spel4";
-            this.Text = "Spel4";
+            this.Controls.Add(this.button2);
+            this.Name = "Spel2";
+            this.Text = "Spel2";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
     }
 }

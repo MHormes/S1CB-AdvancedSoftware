@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Merle
+namespace SurpriseMerle
 {
-    public partial class Spel3 : Form
+    public partial class Spel4 : Form
     {
-        public Spel3()
+        public Spel4()
         {
             InitializeComponent();
         }

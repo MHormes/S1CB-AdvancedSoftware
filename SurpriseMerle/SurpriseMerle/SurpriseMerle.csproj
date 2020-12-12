@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA475982-77CE-49B3-946A-A1C1E8056EB3}</ProjectGuid>
+    <ProjectGuid>{235FD6F5-B660-4F6A-962E-D2BFCF65ED8C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Merle</RootNamespace>
-    <AssemblyName>Merle</AssemblyName>
+    <RootNamespace>SurpriseMerle</RootNamespace>
+    <AssemblyName>SurpriseMerle</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Eind.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Eind.Designer.cs">
-      <DependentUpon>Eind.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,15 +72,12 @@
     <Compile Include="Spel3.Designer.cs">
       <DependentUpon>Spel3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Spel5.cs">
+    <Compile Include="Spel4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Spel5.Designer.cs">
-      <DependentUpon>Spel5.cs</DependentUpon>
+    <Compile Include="Spel4.Designer.cs">
+      <DependentUpon>Spel4.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Eind.resx">
-      <DependentUpon>Eind.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,8 +99,8 @@
     <EmbeddedResource Include="Spel3.resx">
       <DependentUpon>Spel3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Spel5.resx">
-      <DependentUpon>Spel5.cs</DependentUpon>
+    <EmbeddedResource Include="Spel4.resx">
+      <DependentUpon>Spel4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

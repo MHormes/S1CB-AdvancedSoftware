@@ -51,7 +51,7 @@ namespace Merle
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(545, 155);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Vraag 3:\r\n\r\nHoe ziet de laatste fase van Phase 10 eruit?\r\n\r\nKlik op het juiste pl" +
+            this.label2.Text = "Vraag 4:\r\n\r\nHoe ziet de laatste fase van Phase 10 eruit?\r\n\r\nKlik op het juiste pl" +
     "aatje";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -122,7 +122,7 @@ namespace Merle
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Name = "Spel3";
-            this.Text = "Spel3";
+            this.Text = "Spel4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
