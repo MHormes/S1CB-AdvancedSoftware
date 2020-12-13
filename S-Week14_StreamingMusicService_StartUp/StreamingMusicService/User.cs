@@ -43,9 +43,13 @@ namespace StreamingMusicService
             }
         }
 
-        public Song GetFavoriteSongs()
+        public string GetFavoriteSongs()
         {
-           
+           foreach(Song s in FavoList)
+            {
+                return s.GetInfo();
+            }
+            return $"{name} has no favorites";
         }
     }
 }

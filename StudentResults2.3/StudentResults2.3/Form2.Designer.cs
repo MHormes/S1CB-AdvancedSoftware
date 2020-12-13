@@ -34,21 +34,21 @@ namespace StudentResults2._3
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tbxCourseCode = new System.Windows.Forms.TextBox();
-            this.tbxLetterGrade = new System.Windows.Forms.TextBox();
             this.btnAddResult = new System.Windows.Forms.Button();
+            this.cbxGrade = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbxGetResults
             // 
             this.lbxGetResults.FormattingEnabled = true;
-            this.lbxGetResults.Location = new System.Drawing.Point(915, 12);
+            this.lbxGetResults.Location = new System.Drawing.Point(313, 12);
             this.lbxGetResults.Name = "lbxGetResults";
             this.lbxGetResults.Size = new System.Drawing.Size(182, 212);
             this.lbxGetResults.TabIndex = 0;
             // 
             // btnGetAllResults
             // 
-            this.btnGetAllResults.Location = new System.Drawing.Point(915, 231);
+            this.btnGetAllResults.Location = new System.Drawing.Point(313, 231);
             this.btnGetAllResults.Name = "btnGetAllResults";
             this.btnGetAllResults.Size = new System.Drawing.Size(182, 23);
             this.btnGetAllResults.TabIndex = 1;
@@ -81,13 +81,6 @@ namespace StudentResults2._3
             this.tbxCourseCode.Size = new System.Drawing.Size(100, 20);
             this.tbxCourseCode.TabIndex = 4;
             // 
-            // tbxLetterGrade
-            // 
-            this.tbxLetterGrade.Location = new System.Drawing.Point(86, 40);
-            this.tbxLetterGrade.Name = "tbxLetterGrade";
-            this.tbxLetterGrade.Size = new System.Drawing.Size(100, 20);
-            this.tbxLetterGrade.TabIndex = 5;
-            // 
             // btnAddResult
             // 
             this.btnAddResult.Location = new System.Drawing.Point(86, 78);
@@ -98,13 +91,21 @@ namespace StudentResults2._3
             this.btnAddResult.UseVisualStyleBackColor = true;
             this.btnAddResult.Click += new System.EventHandler(this.btnAddResult_Click);
             // 
+            // cbxGrade
+            // 
+            this.cbxGrade.FormattingEnabled = true;
+            this.cbxGrade.Location = new System.Drawing.Point(86, 40);
+            this.cbxGrade.Name = "cbxGrade";
+            this.cbxGrade.Size = new System.Drawing.Size(100, 21);
+            this.cbxGrade.TabIndex = 7;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1109, 626);
+            this.Controls.Add(this.cbxGrade);
             this.Controls.Add(this.btnAddResult);
-            this.Controls.Add(this.tbxLetterGrade);
             this.Controls.Add(this.tbxCourseCode);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -124,7 +125,7 @@ namespace StudentResults2._3
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbxCourseCode;
-        private System.Windows.Forms.TextBox tbxLetterGrade;
         private System.Windows.Forms.Button btnAddResult;
+        private System.Windows.Forms.ComboBox cbxGrade;
     }
 }

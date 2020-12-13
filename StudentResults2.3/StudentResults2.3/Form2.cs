@@ -16,6 +16,7 @@ namespace StudentResults2._3
         public Form2()
         {
             InitializeComponent();
+            
         }
 
         private void btnAddResult_Click(object sender, EventArgs e)

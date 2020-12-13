@@ -33,11 +33,12 @@ namespace StudentResults2._3
         }
         public Course GetResult(string code)
         {
-            
+
+            return courseList;
         }
-        public Course GetAllResults()
+        public Course[] GetAllResults()
         {
-            
+            return this.courseList.ToArray();
         }
         public void UpdateResult(string code, string remark)
         {
