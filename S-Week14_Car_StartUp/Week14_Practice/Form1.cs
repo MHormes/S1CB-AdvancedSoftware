@@ -25,9 +25,9 @@ namespace Week14_Practice
 
             this.car3 = new Car("Volkswagen Beetle", 130);
             
-            cbbCars.Items.Add(this.car1.GetModel());
-            cbbCars.Items.Add(this.car2.GetModel());
-            cbbCars.Items.Add(this.car3.GetModel());
+            cbbCars.Items.Add(this.car1.Model);
+            cbbCars.Items.Add(this.car2.Model);
+            cbbCars.Items.Add(this.car3.Model);
             cbbCars.SelectedIndex = 0;
         }
 

@@ -19,15 +19,17 @@ namespace Week14_Practice
             this.speed = 0;
         }
 
-        public string GetModel()
+        public int Speed
         {
-            return this.model;
+            set { this.speed = value; }
+            get { return this.speed;  }
+        }
+        public string Model
+        {
+            set { this.model = value; }
+            get { return this.model; }
         }
 
-        public int GetSpeed()
-        {
-            return this.speed;
-        }
 
         public void Accelerate(int increaseBy)
         {

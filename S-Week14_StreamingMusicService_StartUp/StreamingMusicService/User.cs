@@ -18,6 +18,7 @@ namespace StreamingMusicService
             this.name = name;
             this.email = email;
         }
+       
 
         public User(string name, string email , string address)
         {
@@ -58,9 +59,9 @@ namespace StreamingMusicService
             return $"{this.name} - {this.email} - {this.address}";
         }
 
-        public string GetEmail()
+        public string GetName()
         {
-            return this.email;
+            return this.name;
         }
     }
 }

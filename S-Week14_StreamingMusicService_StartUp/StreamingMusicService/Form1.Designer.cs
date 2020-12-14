@@ -40,21 +40,35 @@
             this.btnShowAllSongs = new System.Windows.Forms.Button();
             this.lbxAllSongs = new System.Windows.Forms.ListBox();
             this.tpUsers = new System.Windows.Forms.TabPage();
+            this.btnAddUser = new System.Windows.Forms.Button();
+            this.tbxEmailToAdd = new System.Windows.Forms.TextBox();
+            this.tbxAdressToAdd = new System.Windows.Forms.TextBox();
+            this.tbxUserToAdd = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnShowAllUsers = new System.Windows.Forms.Button();
             this.lbxAllUsers = new System.Windows.Forms.ListBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.tpFavorites = new System.Windows.Forms.TabPage();
+            this.btnAddFavorite = new System.Windows.Forms.Button();
+            this.tbxUserToAddFavo = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.lbxSongChoise = new System.Windows.Forms.ListBox();
+            this.btnShowFavorites = new System.Windows.Forms.Button();
+            this.lbxFavorites = new System.Windows.Forms.ListBox();
             this.tabControl1.SuspendLayout();
             this.tpSongs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudSecondsToAdd)).BeginInit();
             this.tpUsers.SuspendLayout();
+            this.tpFavorites.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tpSongs);
             this.tabControl1.Controls.Add(this.tpUsers);
+            this.tabControl1.Controls.Add(this.tpFavorites);
             this.tabControl1.Location = new System.Drawing.Point(13, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -163,6 +177,10 @@
             // 
             // tpUsers
             // 
+            this.tpUsers.Controls.Add(this.btnAddUser);
+            this.tpUsers.Controls.Add(this.tbxEmailToAdd);
+            this.tpUsers.Controls.Add(this.tbxAdressToAdd);
+            this.tpUsers.Controls.Add(this.tbxUserToAdd);
             this.tpUsers.Controls.Add(this.label6);
             this.tpUsers.Controls.Add(this.label5);
             this.tpUsers.Controls.Add(this.label4);
@@ -175,6 +193,64 @@
             this.tpUsers.TabIndex = 1;
             this.tpUsers.Text = "Users";
             this.tpUsers.UseVisualStyleBackColor = true;
+            // 
+            // btnAddUser
+            // 
+            this.btnAddUser.Location = new System.Drawing.Point(452, 111);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(201, 23);
+            this.btnAddUser.TabIndex = 10;
+            this.btnAddUser.Text = "Add new user";
+            this.btnAddUser.UseVisualStyleBackColor = true;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
+            // 
+            // tbxEmailToAdd
+            // 
+            this.tbxEmailToAdd.Location = new System.Drawing.Point(452, 44);
+            this.tbxEmailToAdd.Name = "tbxEmailToAdd";
+            this.tbxEmailToAdd.Size = new System.Drawing.Size(201, 20);
+            this.tbxEmailToAdd.TabIndex = 9;
+            // 
+            // tbxAdressToAdd
+            // 
+            this.tbxAdressToAdd.Location = new System.Drawing.Point(452, 73);
+            this.tbxAdressToAdd.Name = "tbxAdressToAdd";
+            this.tbxAdressToAdd.Size = new System.Drawing.Size(201, 20);
+            this.tbxAdressToAdd.TabIndex = 8;
+            // 
+            // tbxUserToAdd
+            // 
+            this.tbxUserToAdd.Location = new System.Drawing.Point(452, 18);
+            this.tbxUserToAdd.Name = "tbxUserToAdd";
+            this.tbxUserToAdd.Size = new System.Drawing.Size(201, 20);
+            this.tbxUserToAdd.TabIndex = 7;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(364, 76);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "New address";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(364, 47);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "New email";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(364, 18);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "New user name";
             // 
             // btnShowAllUsers
             // 
@@ -194,32 +270,84 @@
             this.lbxAllUsers.Size = new System.Drawing.Size(328, 342);
             this.lbxAllUsers.TabIndex = 2;
             // 
-            // label4
+            // tpFavorites
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(364, 18);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "New user name";
+            this.tpFavorites.Controls.Add(this.lbxFavorites);
+            this.tpFavorites.Controls.Add(this.btnShowFavorites);
+            this.tpFavorites.Controls.Add(this.btnAddFavorite);
+            this.tpFavorites.Controls.Add(this.tbxUserToAddFavo);
+            this.tpFavorites.Controls.Add(this.label9);
+            this.tpFavorites.Controls.Add(this.button2);
+            this.tpFavorites.Controls.Add(this.lbxSongChoise);
+            this.tpFavorites.Location = new System.Drawing.Point(4, 22);
+            this.tpFavorites.Name = "tpFavorites";
+            this.tpFavorites.Padding = new System.Windows.Forms.Padding(3);
+            this.tpFavorites.Size = new System.Drawing.Size(767, 399);
+            this.tpFavorites.TabIndex = 2;
+            this.tpFavorites.Text = "Favorites";
+            this.tpFavorites.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // btnAddFavorite
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(364, 47);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "New email";
+            this.btnAddFavorite.Location = new System.Drawing.Point(417, 44);
+            this.btnAddFavorite.Name = "btnAddFavorite";
+            this.btnAddFavorite.Size = new System.Drawing.Size(201, 23);
+            this.btnAddFavorite.TabIndex = 19;
+            this.btnAddFavorite.Text = "Add favorite";
+            this.btnAddFavorite.UseVisualStyleBackColor = true;
+            this.btnAddFavorite.Click += new System.EventHandler(this.btnAddFavorite_Click);
             // 
-            // label6
+            // tbxUserToAddFavo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(364, 76);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "New address";
+            this.tbxUserToAddFavo.Location = new System.Drawing.Point(417, 18);
+            this.tbxUserToAddFavo.Name = "tbxUserToAddFavo";
+            this.tbxUserToAddFavo.Size = new System.Drawing.Size(201, 20);
+            this.tbxUserToAddFavo.TabIndex = 16;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(337, 18);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(74, 13);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "User to add to";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(2, 354);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(329, 23);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Show all songs";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // lbxSongChoise
+            // 
+            this.lbxSongChoise.FormattingEnabled = true;
+            this.lbxSongChoise.Location = new System.Drawing.Point(3, 6);
+            this.lbxSongChoise.Name = "lbxSongChoise";
+            this.lbxSongChoise.Size = new System.Drawing.Size(328, 342);
+            this.lbxSongChoise.TabIndex = 11;
+            // 
+            // btnShowFavorites
+            // 
+            this.btnShowFavorites.Location = new System.Drawing.Point(426, 330);
+            this.btnShowFavorites.Name = "btnShowFavorites";
+            this.btnShowFavorites.Size = new System.Drawing.Size(201, 23);
+            this.btnShowFavorites.TabIndex = 20;
+            this.btnShowFavorites.Text = "Show all favorites of this user";
+            this.btnShowFavorites.UseVisualStyleBackColor = true;
+            this.btnShowFavorites.Click += new System.EventHandler(this.btnShowFavorites_Click);
+            // 
+            // lbxFavorites
+            // 
+            this.lbxFavorites.FormattingEnabled = true;
+            this.lbxFavorites.Location = new System.Drawing.Point(340, 73);
+            this.lbxFavorites.Name = "lbxFavorites";
+            this.lbxFavorites.Size = new System.Drawing.Size(287, 251);
+            this.lbxFavorites.TabIndex = 21;
             // 
             // Form1
             // 
@@ -235,6 +363,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudSecondsToAdd)).EndInit();
             this.tpUsers.ResumeLayout(false);
             this.tpUsers.PerformLayout();
+            this.tpFavorites.ResumeLayout(false);
+            this.tpFavorites.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -258,6 +388,18 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnAddUser;
+        private System.Windows.Forms.TextBox tbxEmailToAdd;
+        private System.Windows.Forms.TextBox tbxAdressToAdd;
+        private System.Windows.Forms.TextBox tbxUserToAdd;
+        private System.Windows.Forms.TabPage tpFavorites;
+        private System.Windows.Forms.Button btnShowFavorites;
+        private System.Windows.Forms.Button btnAddFavorite;
+        private System.Windows.Forms.TextBox tbxUserToAddFavo;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox lbxSongChoise;
+        private System.Windows.Forms.ListBox lbxFavorites;
     }
 }
 

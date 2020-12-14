@@ -64,11 +64,11 @@ namespace StreamingMusicService
             return $"Streaming Music service: {this.name} ({this.songs.Count} songs & {this.userList.Count} users)";
         }
 
-        public User GetUser(string email)
+        public User GetUser(string name)
         {
             foreach(User user in userList)
             {
-                if(user.GetEmail() == email)
+                if(user.GetName() == name)
                 {
                     return user;
                 }

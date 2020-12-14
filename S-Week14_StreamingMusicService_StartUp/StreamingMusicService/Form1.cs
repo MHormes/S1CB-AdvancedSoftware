@@ -25,17 +25,22 @@ namespace StreamingMusicService
             this.musicSvc.AddSong("Lady Gaga", "Shallow", 216);
             this.musicSvc.AddSong("Queen", "Don't Stop Me Now", 218);
             this.musicSvc.AddSong("Hugh Jackman, Keala Settly, NY Orchestram, The Greatest Showman Esemble, Zac Efron, Zendaya", "The Greatest Show", 302);
-
+            //change title of the form
             this.Text = this.musicSvc.GetInfo();
+
         }
 
         private void UpdateTitleAndSongs()
         {
+            lbxAllSongs.Items.Clear();
+            lbxSongChoise.Items.Clear();
             for (int i = 0; i < musicSvc.GetSongs().Length; i++)
             {
                 lbxAllSongs.Items.Add(musicSvc.GetSongs()[i].GetInfo());
+                lbxSongChoise.Items.Add(musicSvc.GetSongs()[i].GetInfo());
             }
 
+            lbxAllUsers.Items.Clear();
             for(int i = 0; i < musicSvc.GetUsers().Length; i++)
             {
                 lbxAllUsers.Items.Add(musicSvc.GetUsers()[i].GetInfo());
@@ -60,6 +65,38 @@ namespace StreamingMusicService
             UpdateTitleAndSongs();
         }
 
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            musicSvc.AddUser(tbxUserToAdd.Text, tbxEmailToAdd.Text, tbxAdressToAdd.Text);
+            UpdateTitleAndSongs();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UpdateTitleAndSongs();
+        }
+
+        private void btnAddFavorite_Click(object sender, EventArgs e)
+        {
+            
+            for (int i = 0; i < musicSvc.GetSongs().Length; i++)
+            {
+                
+                if(musicSvc.GetSongs()[i].GetId() == lbxSongChoise.SelectedIndex +1)
+                {
+                    int id = musicSvc.GetSongs()[i].GetId();
+                    musicSvc.GetUser(tbxUserToAddFavo.Text).AddSongsToFavourates(musicSvc.GetSong(id));
+                    lbxFavorites.Items.Add(musicSvc.GetSongs()[i].GetInfo());
+                }
+            }
+            lbxFavorites.Items.Clear();
+            lbxFavorites.Items.Add(musicSvc.GetUser(tbxUserToAddFavo.Text).GetFavoriteSongs());
+        }
+
+        private void btnShowFavorites_Click(object sender, EventArgs e)
+        {
+            lbxFavorites.Items.Clear();
+            lbxFavorites.Items.Add(musicSvc.GetUser(tbxUserToAddFavo.Text).GetFavoriteSongs());
+        }
     }
 }
