@@ -45,11 +45,22 @@ namespace StreamingMusicService
 
         public string GetFavoriteSongs()
         {
+           string favorites = $"Favorite songs of {name}: \r\n";
            foreach(Song s in FavoList)
             {
-                return s.GetInfo();
+                favorites +=  $"{s.GetInfo()} \r\n";
             }
-            return $"{name} has no favorites";
+            return $"{name} has no favorite songs";
+        }
+
+        public string GetInfo()
+        {
+            return $"{this.name} - {this.email} - {this.address}";
+        }
+
+        public string GetEmail()
+        {
+            return this.email;
         }
     }
 }

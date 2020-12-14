@@ -11,12 +11,14 @@ namespace StreamingMusicService
         private int songIdSeeder;
         private string name;
         private List<Song> songs;
+        private List<User> userList;
 
         public StreamingMusicService(string name)
         {
             this.songIdSeeder = 1;
             this.name = name;
             this.songs = new List<Song>();
+            this.userList = new List<User>();
         }
 
         public void AddSong(string artist, string title, int durationInSeconds)
@@ -51,9 +53,32 @@ namespace StreamingMusicService
             return foundSongs.ToArray();
         }
 
+        public void AddUser(string name, string email, string address)
+        {
+            User newUser = new User(name, email, address);
+            userList.Add(newUser);
+        }
+
         public string GetInfo()
         {
-            return $"Streaming Music service: {this.name} ({this.songs.Count} songs)";
+            return $"Streaming Music service: {this.name} ({this.songs.Count} songs & {this.userList.Count} users)";
+        }
+
+        public User GetUser(string email)
+        {
+            foreach(User user in userList)
+            {
+                if(user.GetEmail() == email)
+                {
+                    return user;
+                }
+            }
+            return null;
+        }
+
+        public User[] GetUsers()
+        {
+            return this.userList.ToArray();
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\bin\Debug\StreamingMusicService.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\bin\Debug\StreamingMusicService.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\bin\Debug\StreamingMusicService.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week14_StreamingMusicService_StartUp\StreamingMusicService\obj\Debug\StreamingMusicService.pdb

@@ -28,5 +28,38 @@ namespace StreamingMusicService
 
             this.Text = this.musicSvc.GetInfo();
         }
+
+        private void UpdateTitleAndSongs()
+        {
+            for (int i = 0; i < musicSvc.GetSongs().Length; i++)
+            {
+                lbxAllSongs.Items.Add(musicSvc.GetSongs()[i].GetInfo());
+            }
+
+            for(int i = 0; i < musicSvc.GetUsers().Length; i++)
+            {
+                lbxAllUsers.Items.Add(musicSvc.GetUsers()[i].GetInfo());
+            }
+
+            this.Text = this.musicSvc.GetInfo();
+        }
+
+        private void btnShowAllSongs_Click(object sender, EventArgs e)
+        {
+            UpdateTitleAndSongs();
+        }
+
+        private void btnAddSong_Click(object sender, EventArgs e)
+        {
+            this.musicSvc.AddSong(tbxArtistToAdd.Text, tbxSongToAdd.Text, Convert.ToInt32(nudSecondsToAdd.Value));
+            UpdateTitleAndSongs();
+        }
+
+        private void btnShowAllUsers_Click(object sender, EventArgs e)
+        {
+            UpdateTitleAndSongs();
+        }
+
+
     }
 }
