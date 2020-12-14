@@ -82,7 +82,7 @@ namespace StudentResults2._3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(252, 181);
             this.Controls.Add(this.btnCreateStudent);
             this.Controls.Add(this.tbxStudentNumber);
             this.Controls.Add(this.tbxStudentName);

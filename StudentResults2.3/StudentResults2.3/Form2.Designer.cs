@@ -36,19 +36,28 @@ namespace StudentResults2._3
             this.tbxCourseCode = new System.Windows.Forms.TextBox();
             this.btnAddResult = new System.Windows.Forms.Button();
             this.cbxGrade = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbxUpdateCourse = new System.Windows.Forms.TextBox();
+            this.tbxRemark = new System.Windows.Forms.TextBox();
+            this.btnUpdateCourse = new System.Windows.Forms.Button();
+            this.tbxRemoveCourse = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnRemoveCourse = new System.Windows.Forms.Button();
+            this.btnPassed = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbxGetResults
             // 
             this.lbxGetResults.FormattingEnabled = true;
-            this.lbxGetResults.Location = new System.Drawing.Point(313, 12);
+            this.lbxGetResults.Location = new System.Drawing.Point(216, 12);
             this.lbxGetResults.Name = "lbxGetResults";
-            this.lbxGetResults.Size = new System.Drawing.Size(182, 212);
+            this.lbxGetResults.Size = new System.Drawing.Size(182, 147);
             this.lbxGetResults.TabIndex = 0;
             // 
             // btnGetAllResults
             // 
-            this.btnGetAllResults.Location = new System.Drawing.Point(313, 231);
+            this.btnGetAllResults.Location = new System.Drawing.Point(216, 165);
             this.btnGetAllResults.Name = "btnGetAllResults";
             this.btnGetAllResults.Size = new System.Drawing.Size(182, 23);
             this.btnGetAllResults.TabIndex = 1;
@@ -99,11 +108,99 @@ namespace StudentResults2._3
             this.cbxGrade.Size = new System.Drawing.Size(100, 21);
             this.cbxGrade.TabIndex = 7;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 260);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Update course:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 295);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Remark:";
+            // 
+            // tbxUpdateCourse
+            // 
+            this.tbxUpdateCourse.Location = new System.Drawing.Point(99, 257);
+            this.tbxUpdateCourse.Name = "tbxUpdateCourse";
+            this.tbxUpdateCourse.Size = new System.Drawing.Size(100, 20);
+            this.tbxUpdateCourse.TabIndex = 10;
+            // 
+            // tbxRemark
+            // 
+            this.tbxRemark.Location = new System.Drawing.Point(99, 292);
+            this.tbxRemark.Multiline = true;
+            this.tbxRemark.Name = "tbxRemark";
+            this.tbxRemark.Size = new System.Drawing.Size(299, 69);
+            this.tbxRemark.TabIndex = 11;
+            // 
+            // btnUpdateCourse
+            // 
+            this.btnUpdateCourse.Location = new System.Drawing.Point(99, 368);
+            this.btnUpdateCourse.Name = "btnUpdateCourse";
+            this.btnUpdateCourse.Size = new System.Drawing.Size(298, 23);
+            this.btnUpdateCourse.TabIndex = 12;
+            this.btnUpdateCourse.Text = "Update course";
+            this.btnUpdateCourse.UseVisualStyleBackColor = true;
+            this.btnUpdateCourse.Click += new System.EventHandler(this.btnUpdateCourse_Click);
+            // 
+            // tbxRemoveCourse
+            // 
+            this.tbxRemoveCourse.Location = new System.Drawing.Point(98, 440);
+            this.tbxRemoveCourse.Name = "tbxRemoveCourse";
+            this.tbxRemoveCourse.Size = new System.Drawing.Size(100, 20);
+            this.tbxRemoveCourse.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 443);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(85, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Remove course:";
+            // 
+            // btnRemoveCourse
+            // 
+            this.btnRemoveCourse.Location = new System.Drawing.Point(12, 466);
+            this.btnRemoveCourse.Name = "btnRemoveCourse";
+            this.btnRemoveCourse.Size = new System.Drawing.Size(186, 23);
+            this.btnRemoveCourse.TabIndex = 15;
+            this.btnRemoveCourse.Text = "Remove course";
+            this.btnRemoveCourse.UseVisualStyleBackColor = true;
+            this.btnRemoveCourse.Click += new System.EventHandler(this.btnRemoveCourse_Click);
+            // 
+            // btnPassed
+            // 
+            this.btnPassed.Location = new System.Drawing.Point(16, 521);
+            this.btnPassed.Name = "btnPassed";
+            this.btnPassed.Size = new System.Drawing.Size(382, 50);
+            this.btnPassed.TabIndex = 16;
+            this.btnPassed.Text = "Check if you passed";
+            this.btnPassed.UseVisualStyleBackColor = true;
+            this.btnPassed.Click += new System.EventHandler(this.btnPassed_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1109, 626);
+            this.Controls.Add(this.btnPassed);
+            this.Controls.Add(this.btnRemoveCourse);
+            this.Controls.Add(this.tbxRemoveCourse);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnUpdateCourse);
+            this.Controls.Add(this.tbxRemark);
+            this.Controls.Add(this.tbxUpdateCourse);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.cbxGrade);
             this.Controls.Add(this.btnAddResult);
             this.Controls.Add(this.tbxCourseCode);
@@ -127,5 +224,14 @@ namespace StudentResults2._3
         private System.Windows.Forms.TextBox tbxCourseCode;
         private System.Windows.Forms.Button btnAddResult;
         private System.Windows.Forms.ComboBox cbxGrade;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tbxUpdateCourse;
+        private System.Windows.Forms.TextBox tbxRemark;
+        private System.Windows.Forms.Button btnUpdateCourse;
+        private System.Windows.Forms.TextBox tbxRemoveCourse;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnRemoveCourse;
+        private System.Windows.Forms.Button btnPassed;
     }
 }

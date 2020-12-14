@@ -25,19 +25,46 @@ namespace StudentResults2._3
         }
         public bool HasPassed()
         {
-
+            switch (this.grade)
+            {
+                case Grade.Poor:
+                    return false;
+                    break;
+                case Grade.Unsatisfactory:
+                    return false;
+                    break;
+                case Grade.Satisfactory:
+                    return true;
+                    break;
+                case Grade.Good:
+                    return true;
+                    break;
+                case Grade.Outstanding:
+                    return true;
+                    break;
+            }
+            return true;
         }
         public string GetRemark()
         {
             return remark;
         }
+
+        public string GetCode()
+        {
+            return code;
+        }
         public void SetRemark(string remark)
         {
-
+            this.remark = remark;
         }
         public string GetInfo()
         {
-            return $"{code}-{grade}";
+            if (string.IsNullOrWhiteSpace(remark))
+            {
+                return $"{code} - {grade}";
+            }
+            return $"{code} - {grade} - ({remark})";
         }
     }
 }

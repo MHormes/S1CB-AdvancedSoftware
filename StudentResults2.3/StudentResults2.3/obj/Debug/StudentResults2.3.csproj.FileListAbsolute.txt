@@ -1,0 +1,11 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2.3.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2._3.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2._3.Form2.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2._3.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2.3.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2.3.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\bin\Debug\StudentResults2.3.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\bin\Debug\StudentResults2.3.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\bin\Debug\StudentResults2.3.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2.3.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\StudentResults2.3\StudentResults2.3\obj\Debug\StudentResults2.3.pdb
