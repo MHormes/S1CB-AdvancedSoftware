@@ -59,7 +59,7 @@ namespace BankAccountApp
         {
             if (amount > 0)
             {
-                Balance = Balance + amount);
+                Balance = Balance + amount;
                 this.transactions.Add(amount);
                 return true;
             }
