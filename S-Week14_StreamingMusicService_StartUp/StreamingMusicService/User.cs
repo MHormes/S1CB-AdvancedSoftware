@@ -47,11 +47,17 @@ namespace StreamingMusicService
         public string GetFavoriteSongs()
         {
            string favorites = $"Favorite songs of {name}: \r\n";
+
+            if(FavoList.Count == 0)
+            {
+                return $"{name} has no favorite songs";
+            }
+
            foreach(Song s in FavoList)
             {
                 favorites +=  $"{s.GetInfo()} \r\n";
             }
-            return $"{name} has no favorite songs";
+            return favorites;
         }
 
         public string GetInfo()

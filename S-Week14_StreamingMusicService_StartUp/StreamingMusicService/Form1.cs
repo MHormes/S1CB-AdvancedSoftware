@@ -84,9 +84,9 @@ namespace StreamingMusicService
                 
                 if(musicSvc.GetSongs()[i].GetId() == lbxSongChoise.SelectedIndex +1)
                 {
+
                     int id = musicSvc.GetSongs()[i].GetId();
                     musicSvc.GetUser(tbxUserToAddFavo.Text).AddSongsToFavourates(musicSvc.GetSong(id));
-                    lbxFavorites.Items.Add(musicSvc.GetSongs()[i].GetInfo());
                 }
             }
             lbxFavorites.Items.Clear();
