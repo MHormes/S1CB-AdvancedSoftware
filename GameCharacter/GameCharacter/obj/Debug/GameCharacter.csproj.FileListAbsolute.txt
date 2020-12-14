@@ -1,0 +1,9 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\bin\Debug\GameCharacter.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\bin\Debug\GameCharacter.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\bin\Debug\GameCharacter.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\obj\Debug\GameCharacter.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\obj\Debug\GameCharacter.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\obj\Debug\GameCharacter.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\obj\Debug\GameCharacter.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\obj\Debug\GameCharacter.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\GameCharacter\GameCharacter\obj\Debug\GameCharacter.pdb
