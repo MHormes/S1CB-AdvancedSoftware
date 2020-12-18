@@ -95,6 +95,7 @@ namespace CrazyRounding
             this.btnRound.TabIndex = 5;
             this.btnRound.Text = "Round 10x";
             this.btnRound.UseVisualStyleBackColor = true;
+            this.btnRound.Click += new System.EventHandler(this.btnRound_Click);
             // 
             // listBox1
             // 

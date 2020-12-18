@@ -8,21 +8,20 @@ namespace CrazyRounding
 {
     class CrazyMath
     {
+        Random rnd = new Random();
         public double RoundWholes(double value)
-        {
-            Random rnd = new Random();
+        { 
             int decision = rnd.Next(2);
             if(decision == 0)
             {
                 return Math.Ceiling(value);
             }
             return Math.Floor(value);
-            
         }
 
         public double RoundTenths(double value)
         {
-            Random rnd = new Random();
+            
             int decision = rnd.Next(2);
             if (decision == 0)
             {
@@ -33,7 +32,7 @@ namespace CrazyRounding
 
         public double RoundHundreths(double value)
         {
-            Random rnd = new Random();
+            
             int decision = rnd.Next(2);
             if (decision == 0)
             {
