@@ -11,31 +11,25 @@ namespace BankAccountApp
         private double balance;
         private List<double> transactions;
 
-        public BankAccount(string clientName, int accountNr)
+        public BankAccount(string clientName)
         {
             ClientName = clientName;
-            this.accountNr = accountNr;
-            Balance = 0;
-            this.transactions = new List<double>();
-        }
-
-        public BankAccount()
-        {
             Accountnr = nextNo;
             nextNo++;
+            Balance = 0;
             this.transactions = new List<double>();
         }
 
         public int Accountnr
         {
-            set {}
+            set { this.accountNr = value; }
             get { return this.accountNr; }
         }
 
         public string ClientName
         {
-            set { ClientName = value; }
-            get { return ClientName; }
+            set;
+            get;
         }
 
         public double Balance
@@ -95,7 +89,7 @@ namespace BankAccountApp
 
         public string GetInfo()
         {
-            return String.Format($"{0} (nr. {1}) - {2:0.00}", ClientName, this.accountNr, Balance);
+            return $"{ClientName} (nr. {Accountnr}) - {Balance}";
         }
     }
 }
