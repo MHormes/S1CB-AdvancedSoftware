@@ -5,6 +5,8 @@ namespace BankAccountApp
 {
     public class BankAccount
     {
+        public static int nextNo = 1001;
+
         private int accountNr;
         private double balance;
         private List<double> transactions;
@@ -13,25 +15,33 @@ namespace BankAccountApp
         {
             ClientName = clientName;
             this.accountNr = accountNr;
+            Balance = 0;
+            this.transactions = new List<double>();
+        }
+
+        public BankAccount()
+        {
+            Accountnr = nextNo;
+            nextNo++;
             this.transactions = new List<double>();
         }
 
         public int Accountnr
         {
-            private set { }
+            set {}
             get { return this.accountNr; }
         }
 
         public string ClientName
         {
-            set { }
+            set { ClientName = value; }
             get { return ClientName; }
         }
 
         public double Balance
         {
-            get { return Balance; }
-            set
+            get { return balance; }
+            private set
             {
                 if(value >= 0)
                 {
@@ -85,7 +95,7 @@ namespace BankAccountApp
 
         public string GetInfo()
         {
-            return String.Format("{0} (nr. {1}) - {2:0.00}", ClientName, this.accountNr, Balance);
+            return String.Format($"{0} (nr. {1}) - {2:0.00}", ClientName, this.accountNr, Balance);
         }
     }
 }

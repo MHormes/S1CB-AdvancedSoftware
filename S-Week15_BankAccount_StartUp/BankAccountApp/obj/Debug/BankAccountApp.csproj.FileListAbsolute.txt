@@ -1,0 +1,10 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\bin\Debug\BankAccountApp.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\bin\Debug\BankAccountApp.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\bin\Debug\BankAccountApp.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\S-Week15_BankAccount_StartUp\BankAccountApp\obj\Debug\BankAccountApp.pdb
