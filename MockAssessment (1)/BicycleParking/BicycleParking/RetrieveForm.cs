@@ -12,14 +12,28 @@ namespace BicycleParking
 {
     public partial class RetrieveForm : Form
     {
-        public RetrieveForm()
+        
+        string ticketNumber;
+        BicycleParking oldParking;
+
+        public RetrieveForm(BicycleParking bp, string ticketNumber)
         {
             InitializeComponent();
+            oldParking = bp;
+            this.ticketNumber = ticketNumber;
         }
 
         private void btnRetrieveBicycle_Click(object sender, EventArgs e)
         {
-            
+            double price = oldParking.RetrieveBicycle(ticketNumber, Convert.ToInt32(tbxHoursInParking.Text), tbxOwnerZipcode.Text);
+            if (price == -1)
+            {
+                MessageBox.Show("No parked bicycle was found with the selected ticket number");
+                this.Close();
+                return;
+            }
+            MessageBox.Show("The total cost is " + price);
+            this.Close();
         }
     }
 }

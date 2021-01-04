@@ -12,9 +12,21 @@ namespace BicycleParking
 {
     public partial class StatisticsForm : Form
     {
-        public StatisticsForm()
+        BicycleParking oldParking;
+        string partialZipcode;
+
+        public StatisticsForm(BicycleParking bp, string partialZipcode)
         {
-            InitializeComponent();           
+            InitializeComponent();
+            oldParking = bp;
+            this.partialZipcode = partialZipcode;
+            this.Text = "Statistics for zipcode " + partialZipcode;
+
+            bp.GetAllRetrievedBicyclesByZipcode(partialZipcode);
+            foreach(Bicycle bic in bp.GetAllRetrievedBicyclesByZipcode(partialZipcode))
+            {
+                lbxBicycles.Items.Add(bic.GetInfo());
+            }
         }
     }
 }
