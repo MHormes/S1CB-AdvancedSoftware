@@ -1,0 +1,11 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\MagazineApp.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\Week14_MagazineApp.EditForm.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\Week14_MagazineApp.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\Week14_MagazineApp.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\MagazineApp.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\MagazineApp.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\bin\Debug\Week14_MagazineApp.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\bin\Debug\Week14_MagazineApp.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\bin\Debug\Week14_MagazineApp.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\Week14_MagazineApp.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\Week14_MagazineApp.pdb
