@@ -1,0 +1,11 @@
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\bin\Debug\ZebraFarm.exe.config
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\bin\Debug\ZebraFarm.exe
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\bin\Debug\ZebraFarm.pdb
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.DetailsForm.resources
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.Form1.resources
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.Properties.Resources.resources
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.csproj.GenerateResource.cache
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.exe
+C:\Users\Gebruiker\Desktop\Exam_Start\ZebraFarmStartUp\ZebraFarm\obj\Debug\ZebraFarm.pdb

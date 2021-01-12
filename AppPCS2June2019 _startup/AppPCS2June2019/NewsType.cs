@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week14_MagazineApp
+namespace AppPCS2June2019
 {
-    public enum NewsType
+    class NewsType
     {
-        POLITICS,
-        SPORTS,
-        CULTURE,
-        REGIONAL,
-        GOSSIP
     }
 }

@@ -19,7 +19,7 @@ namespace BicycleParking
             bicList = new List<Bicycle>();
         }
 
-        public Bicycle GetBicycle(string ticketNumber)
+        private Bicycle GetBicycle(string ticketNumber)
         {
             foreach (Bicycle bic in bicList)
             {
@@ -84,10 +84,13 @@ namespace BicycleParking
             List<Bicycle> foundBic = new List<Bicycle>();
             foreach(Bicycle bic in bicList)
             {
-                //partial should work aswell
-                if(bic.OwnerZipcode.Contains(partialZipcode))
+                if (bic.OwnerZipcode != null)
                 {
-                    foundBic.Add(bic);
+                    //partial should work aswell
+                    if (bic.OwnerZipcode.Contains(partialZipcode))
+                    {
+                        foundBic.Add(bic);
+                    }
                 }
             }
             return foundBic.ToArray();

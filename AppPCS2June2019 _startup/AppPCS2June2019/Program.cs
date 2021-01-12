@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Week14_MagazineApp
+namespace AppPCS2June2019
 {
     static class Program
     {
