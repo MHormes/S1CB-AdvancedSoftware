@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace AppPCS2June2019
 {
-    class NewsType
+    public enum NewsType
     {
+        POLITICS,
+        SPORTS,
+        CULTURE,
+        REGIONAL,
+        GOSSIP
     }
 }

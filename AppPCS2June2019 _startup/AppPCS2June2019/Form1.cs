@@ -45,9 +45,15 @@ namespace AppPCS2June2019
         }
 
         private void btnAddNewsitem_Click(object sender, EventArgs e)
-        { //todo
- 
-         }
+        {
+            if (string.IsNullOrEmpty(tbFirstLine.Text))
+            {
+                
+                m.AddNewsItem(tbTitle.Text, tbAuthor.Text, (NewsType)cbNewstype.SelectedIndex);
+                return;
+            }
+            m.AddNewsItem(tbTitle.Text, tbAuthor.Text, tbFirstLine.Text, (NewsType)cbNewstype.SelectedIndex);
+        }
 
         private void btnRemoveNewsItem_Click(object sender, EventArgs e)
         {
@@ -74,18 +80,34 @@ namespace AppPCS2June2019
         }
 
         private void btnShowGeneralInfoOfAllNewsitems_Click(object sender, EventArgs e)
-        {//todo
-            
+        {
+            lbInfo.Items.Clear();
+            foreach(NewsItem nI in m.GetAllNewsItems())
+            {
+                lbInfo.Items.Add(nI.GetGeneralInfo());
+            } 
         }
  
        private void btnShowInfoOfNewsitem_Click(object sender, EventArgs e)
-        {//todo           
+        {
+            NewsItem specificItem = m.GetNewsItem(Convert.ToInt32(tbId.Text));
+            if (specificItem != null)
+            {
+                SpecificForm newForm = new SpecificForm(specificItem);
+                newForm.ShowDialog();
+                return;
+            }
+            MessageBox.Show("Item with specified ID could not be found.");
             
         }
  
         private void btnShowFromAuthor_Click(object sender, EventArgs e)
-        {//todo
-
+        {
+            lbInfo.Items.Clear();
+            foreach (NewsItem nI in m.GetAllNewsItems(tbxFilterAuthor.Text))
+            {
+                lbInfo.Items.Add(nI.GetGeneralInfo());
+            }
         }
     }
 }

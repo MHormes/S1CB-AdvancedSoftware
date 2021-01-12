@@ -1,0 +1,11 @@
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.csprojAssemblyReference.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.Form1.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.Properties.Resources.resources
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.csproj.GenerateResource.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\bin\Debug\AppPCS2June2019.exe.config
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\bin\Debug\AppPCS2June2019.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\bin\Debug\AppPCS2June2019.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.exe
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.pdb
+C:\Users\Gebruiker\OneDrive - Office 365 Fontys\Documenten\Fontys\Advanced\Lecture Class\VS projects\AppPCS2June2019 _startup\AppPCS2June2019\obj\Debug\AppPCS2June2019.SpecificForm.resources
